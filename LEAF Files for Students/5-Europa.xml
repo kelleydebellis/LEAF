@@ -393,4 +393,83 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader> 	<text> 		<body> 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/5-Europa-Ort-1.jpg"/> 			<div> 				<head>EVROPA.</head> 				<p>The countries of <placeName key="Europe" ref="http://www.wikidata.org/entity/Q46">Europe</placeName>, as we now call them are <placeName key="Spain" ref="http://www.wikidata.org/entity/Q29">Spaine</placeName>, <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName>, <placeName key="Germany" ref="http://www.wikidata.org/entity/Q183">Germanine</placeName>, <placeName key="Italy" ref="http://www.wikidata.org/entity/Q38">Italie</placeName>, Slauonia, Grzce, Hungarie, Polonia, Lituauia, Morcouise, or more fignifcatly the countrie of Sarmatia , and the Peninrla in which is Norway,Swethem,and Gothland.Among the lies, Albion,conteyning England &amp; Scotland is the chiefelt, next vnto in haue ue Ireland, then more northerly is Ifland!!, Frifland!!, &amp; Iaftly Groonland,all in the Ocean fea!, In the Mediteraneum fea it hath Sicilia, Sardina, Corfica, Candie, Maiorica, Minorica, Corphum, Nigropont , and others of leffe!! fame , whofe!! f!eural name, and fituations doappeere in the Mappe.</p><p>This our Europe (befides for the Romaine Empier) honorable throughout all the world hath aboue 28 Chriftain Kingdoms,yf you adde the 14 which fome recon only in Spain . It is paffling fertil , naturall temperate ,and of a milde aier . And inferior to no other parte in plentie of all kinde of fruit, wyyne ,and pants,but to be compared with the moft exellent ,beeing made pleafant with moft faire Citties,VIllages and Throughfares.   And although it be in compas leffer!! then the other,yet for the woorthineffe!! of the people it is preferred be-fore all other partes of the world, &amp; euer hath bin by all auncient writers, ha-ning both for the Empier of the Macedonians and mightyneffe of the Romai-nes bin mofte renownned. </p></div> 		</body> 	</text> </TEI>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/kelleydebellis/LEAF/main/LEAF%20Files%20for%20Students/5-Europa.xml?place_annotation_20241112203516670",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-13T01:35:16.670Z",
+	"dcterms:modified": "2024-11-13T01:35:16.670Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/kelleydebellis",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelley DeBellis"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/kelleydebellis/LEAF/main/LEAF%20Files%20for%20Students/5-Europa.xml?place_annotation_20241112203516670#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/kelleydebellis/LEAF/main/LEAF%20Files%20for%20Students/5-Europa.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/kelleydebellis/LEAF/main/LEAF%20Files%20for%20Students/5-Europa.xml?place_annotation_20241112203516670#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Slavonia",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader> 	<text> 		<body> 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/5-Europa-Ort-1.jpg"/> 			<div> 				<head>EVROPA.</head> 				<p>The countries of <placeName key="Europe" ref="http://www.wikidata.org/entity/Q46">Europe</placeName>, as we now call them are <placeName key="Spain" ref="http://www.wikidata.org/entity/Q29">Spaine</placeName>, <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName>, <placeName key="Germany" ref="http://www.wikidata.org/entity/Q183">Germanine</placeName>, <placeName key="Italy" ref="http://www.wikidata.org/entity/Q38">Italie</placeName>, <placeName key="Slavonia" ref="http://dbpedia.org/resource/Slavonia">Slauonia</placeName>, Grzce, Hungarie, Polonia, Lituauia, Morcouise, or more fignifcatly the countrie of Sarmatia , and the Peninrla in which is Norway,Swethem,and Gothland.Among the lies, Albion,conteyning England &amp; Scotland is the chiefelt, next vnto in haue ue Ireland, then more northerly is Ifland!!, Frifland!!, &amp; Iaftly Groonland,all in the Ocean fea!, In the Mediteraneum fea it hath Sicilia, Sardina, Corfica, Candie, Maiorica, Minorica, Corphum, Nigropont , and others of leffe!! fame , whofe!! f!eural name, and fituations doappeere in the Mappe.</p><p>This our Europe (befides for the Romaine Empier) honorable throughout all the world hath aboue 28 Chriftain Kingdoms,yf you adde the 14 which fome recon only in Spain . It is paffling fertil , naturall temperate ,and of a milde aier . And inferior to no other parte in plentie of all kinde of fruit, wyyne ,and pants,but to be compared with the moft exellent ,beeing made pleafant with moft faire Citties,VIllages and Throughfares.   And although it be in compas leffer!! then the other,yet for the woorthineffe!! of the people it is preferred be-fore all other partes of the world, &amp; euer hath bin by all auncient writers, ha-ning both for the Empier of the Macedonians and mightyneffe of the Romai-nes bin mofte renownned. </p></div> 		</body> 	</text> </TEI>
